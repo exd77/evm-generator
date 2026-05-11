@@ -45,10 +45,10 @@ chmod +x evm-wallet.js start.sh
 ./start.sh
 ```
 
-Running `./start.sh` opens a gradient terminal-style menu like this:
+Running `./start.sh` opens a terminal-style menu like this:
 
 <p align="center">
-  <img src="./assets/evm-generator-output.svg" alt="EVM Generator terminal menu output" width="100%">
+  <img src="./assets/output.png" alt="EVM Generator terminal menu output" width="100%">
 </p>
 
 You can also pass a subcommand directly to skip the menu:
