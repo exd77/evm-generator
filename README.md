@@ -45,48 +45,11 @@ chmod +x evm-wallet.js start.sh
 ./start.sh
 ```
 
-Running `./start.sh` opens a numbered menu. Example session start:
+Running `./start.sh` opens a gradient terminal-style menu like this:
 
-```
-╔══════════════════════════════════════╗
-║        E V M   G E N E R A T O R    ║
-║   Wallet Toolkit · ethers v6         ║
-╚══════════════════════════════════════╝
-
-  Wallet
-  [1]  Generate wallet            random / HD / vanity
-  [2]  Import keystore            decrypt → address + PK
-  [3]  Export keystore            PK → encrypted JSON v3
-  [4]  Batch keystore             CSV to folder of JSONs
-
-  Send (1 wallet)
-  [5]  Send native
-  [6]  Send token                 ERC20
-  [7]  Sweep native               all native → 1 address
-  [8]  Sweep token                all ERC20 → 1 address
-  [9]  Approve ERC20
-  [10] Disperse                   1 wallet -> many recipients
-  [11] Speed up / cancel tx
-
-  Batch (many wallets)
-  [12] Batch send                 many wallets -> 1 recipient
-  [13] Consolidate                many wallets -> 1 (full sweep)
-  [14] Balance batch              check balances from CSV
-
-  Inspect
-  [15] Balance                    single address
-  [16] Token info                 ERC20 contract
-  [17] Tx status
-  [18] Gas now
-  [19] ENS lookup
-  [20] Nonce
-  [21] Sign message               EIP-191
-  [22] Verify message             EIP-191
-  [23] Chains
-  [24] Help
-
-Choose [1-24] or q to quit:
-```
+<p align="center">
+  <img src="./assets/evm-generator-output.svg" alt="EVM Generator terminal menu output" width="100%">
+</p>
 
 You can also pass a subcommand directly to skip the menu:
 
