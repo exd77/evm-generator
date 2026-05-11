@@ -1,0 +1,13 @@
+{
+  "name": "evm-generator",
+  "version": "1.0.0",
+  "description": "Interactive EVM wallet generator and sender",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "wallet": "node evm-wallet.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.5"
+  }
+}

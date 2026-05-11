@@ -1,0 +1,49 @@
+# dependencies
+node_modules/
+
+# generated wallet/key material - never commit
+peler
+wallets*.csv
+wallets*.json
+hd-wallets*.csv
+hd-wallets*.json
+vanity*.csv
+vanity*.json
+keystore*.json
+keystores/
+*.keystore
+*.key
+*.pem
+*.p12
+*.pfx
+
+# environment / local secrets
+.env
+.env.*
+*.env
+*.local
+*.local.sh
+
+# runtime logs and output
+*.log
+logs/
+*.pid
+balances*.csv
+batch*.csv
+sweep*.csv
+
+# local tooling / editor state
+.devin/
+.hermes/
+.openclaw/
+.awp-wallet/
+.openclaw-wallet/
+.DS_Store
+.vscode/
+.idea/
+
+# build/cache
+.cache/
+dist/
+build/
+coverage/
